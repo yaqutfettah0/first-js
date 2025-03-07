@@ -1,7 +1,7 @@
-function name (ad) {
-    console.log(`<${ad} is active now>`);
-}
-
-name("Emma");
-name("Maria");
-name("Kate");
+const name= (ad) => {
+    console.log(`${ad} is active now`);
+  };
+  
+  name('Ali');
+  name('Sara');
+  name('John');
